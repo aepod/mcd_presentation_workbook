@@ -1,2 +1,9 @@
-# mcd_presentation_workboook
-Zilker Technology - Customizing Your Magento Cloud Docker Solution Workbook
+# Magento Cloud Docker – Your Customizable Magento Development Environment
+
+Workshop Notes
+
+See the workshop here: TBD
+
+TOC here
+
+
