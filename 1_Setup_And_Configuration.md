@@ -12,10 +12,8 @@ Linux VM
 
 2) Download Project
 
-3) Composer Install
+3) Unzip
 
-4) Build docker-compose.yml file
+4) Bring up Containers
 
-5) Bring up containers
-
-6) Run Deployment
+5) View Website
