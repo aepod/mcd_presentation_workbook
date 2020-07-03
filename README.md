@@ -4,6 +4,11 @@ Workshop Notes
 
 See the workshop here: TBD
 
-TOC here
+|                |ASCII                          |
+|----------------|-------------------------------|
+|1) Setup and Config | Link Here           |
+|1b) Full Install Instructions           |Link Here           |
+|2) TBD          |Link Here|
+
 
 
