@@ -1,5 +1,4 @@
-# Magento Cloud Docker
-# Your Customizable Magento Development Environment
+## Magento Cloud Docker - Your Customizable Magento Development Environment
 
 Workshop Notes
 
