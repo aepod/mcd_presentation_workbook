@@ -31,3 +31,36 @@
 
        docker-compose run deploy cloud-deploy
 
+## Modification
+
+##### Added Database dump
+The database was dumped to .docker/mysql/docker-entrypoint-initdb.d/m2ce-demo.sql
+
+This is inserted when the database comes up, and is much quicker than a full install from scratch. The database itself is not changed.
+
+With this change the app/etc/env.php was left in place as well, for the crypt key.
+
+##### Added n98-magerun2 to var/
+This was added for convenience. This can be run easily using
+       docker-compose run deploy var/n98-magerun2 [cmd]
+
+##### Fix for varnish/web healthcheck, which is still a WIP
+
+       varnish:
+         hostname: varnish.magento2.docker
+         image: 'magento/magento-cloud-docker-varnish:latest-1.1'
+         networks:
+           magento:
+             aliases:
+             - magento2.docker
+          depends_on:
+            web:
+              condition: service_healthy
+              
+Remove the depends_on, for now the web service check is not working correctly.
+
+
+##### Fix for magento-vars.php function declared issue
+Removed code here, this is just used for multi-store, setting the proper store code is done in this file.
+     
+         
