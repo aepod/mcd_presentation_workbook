@@ -5,6 +5,7 @@ Workshop Notes
 See the workshop here: TBD
 
 
+|Section |Link |
 |----------------|-------------------------------|
 |1) Setup and Config | Link Here           |
 |1b) Full Install Instructions           |Link Here           |
