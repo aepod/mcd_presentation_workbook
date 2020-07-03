@@ -25,7 +25,7 @@
 
 5) Optionally, add sample data
 
-       docker-compose run deploy bin/magento sampledata:deploy
+       docker-compose run deploy php -dmemory_limit=4G bin/magento sampledata:deploy
 
 6) Deploy and Automatically Install
 
