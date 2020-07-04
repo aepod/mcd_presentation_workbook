@@ -13,7 +13,6 @@ Connect to the container
 
 Copy the configurations from in container
 
-      cp /etc/nginx/nginx.conf /app/.docker/nginx/etc/
       cp /etc/nginx/conf.d/default.conf /app/.docker/nginx/etc/vhost.conf
       
 Don't forget to exit from the container      
@@ -33,6 +32,15 @@ In .docker/nginx/etc/vhost.conf edit in the PHP Entry Point (near line 142)
          
          # Add the following line
          add_header X-hello "Hello World";
+
+### Add the docker-compose.override.yml
+Add a docker-compose.override.yml file to the root directory of the project. 
+    
+    version: '2.1'
+    web:
+      volumes:
+        - ./.docker/nginx/etc/vhost.conf:/etc/nginx/conf.d/default.conf
+
 
 
 ### Restart the Web Container
