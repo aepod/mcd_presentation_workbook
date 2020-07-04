@@ -7,7 +7,7 @@ Copy the Elasticsearch 7.5 image into private directory.
        mkdir -p .docker/images/elasticsearch
        cp -R vendor/magento/magento-cloud-docker/images/elasticsearch/7.5/* .docker/images/elasticsearch/ 
        
-2) Add S3 Repository Plugin to Elasticsearch
+2) Add S3 Repository Plugin to Elasticsearch Image
 
 Edit `.docker/images/elasticsearch/Dockerfile`
 
@@ -27,8 +27,19 @@ Edit `.docker/images/elasticsearch/Dockerfile`
 
 3) Add image override to docker-compose.override.yaml
 
+       services:
+           elasticsearch:
+              build:
+                context: ./.docker/images/elasticsearch/
+              ports:
+                - 9200:9200
+                
+                
+4) Restart the service, this time building from the image
 
-4) Restart the service
+       docker-compose up -d --build
 
 
 5) Test with browser
+
+        http://magento2.docker:9200/_cat/plugins?v&s=component&h=component,version
