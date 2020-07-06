@@ -18,4 +18,4 @@
 
 #### Example Magento CE with Magento Cloud Docker: 
  
- `https://devdocs.magento.com/cloud/docker/docker-development.html`
+ `https://bit.ly/31EwEPe`
