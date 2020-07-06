@@ -1,21 +1,11 @@
 # Lesson 1 - Resources
 
-#### Main Documentation: 
+-  [Magento DevDocs' Documentation for Docker Development](https://devdocs.magento.com/cloud/docker/docker-development.html)
  
- `https://devdocs.magento.com/cloud/docker/docker-development.html`
+-  [Github Repository of magento-cloud-docker](https://github.com/magento/magento-cloud-docker)
+ 
+-  [Magento Community Engineering Slack's #cloud-docker Channel](https://magentocommeng.slack.com/messages/CJ6F3F8NS)
 
-#### Github Project: 
- 
- `https://github.com/magento/magento-cloud-docker/`
+-  [Mathew Beane's Presentation Workbook](https://github.com/aepod/mcd_presentation_workbook)
 
-#### Magento Community Engineering Slack: 
- 
- `https://devdocs.magento.com/cloud/docker/docker-development.html`
-
-#### Presentation Workbook: 
- 
- `https://github.com/aepod/mcd_presentation_workbook`
-
-#### Example Magento CE with Magento Cloud Docker: 
- 
- `https://devdocs.magento.com/cloud/docker/docker-development.html`
+-  [Example Magento CE with Magento Cloud Docker](https://devdocs.magento.com/cloud/docker/docker-development.html)
