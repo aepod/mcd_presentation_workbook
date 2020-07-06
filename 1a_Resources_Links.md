@@ -8,4 +8,4 @@
 
 -  [Mathew Beane's Presentation Workbook](https://github.com/aepod/mcd_presentation_workbook)
 
--  [Example Magento CE with Magento Cloud Docker](https://devdocs.magento.com/cloud/docker/docker-development.html)
+-  [Example Magento CE with Magento Cloud Docker](https://bit.ly/31EwEPe)
