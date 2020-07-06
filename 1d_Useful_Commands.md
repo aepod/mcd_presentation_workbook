@@ -6,7 +6,7 @@
 
        docker run -it  -v $(pwd):/app/ -v ~/.composer/:/root/.composer/ magento/magento-cloud-docker-php:7.3-cli-1.1 bash -c 'composer install'
 
-2) ECE-Tools from vendor/bin/
+2) ECE-Tools from `vendor/bin/`
 
        docker run -it  -v $(pwd):/app/ magento/magento-cloud-docker-php:7.3-cli-1.1 bash -c 'vendor/bin/ece-tools'
 
@@ -16,7 +16,7 @@
 
        docker-compose run deploy 'composer install'
 
-2) bin/magento command
+2) bin/magento Command
 
        docker-compose run deploy 'bin/magento'
 
