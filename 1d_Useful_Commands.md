@@ -28,3 +28,7 @@
 
        docker-compose run deploy cloud-deploy
 
+
+5) Get to Log Files
+
+       docker-compose logs -f fpm  # any container name from docker-compose.yaml will do
