@@ -12,8 +12,14 @@ Linux VM
 
 2) Download Project
 
+       https://bit.ly/31EwEPe
+    
 3) Unzip
 
+Depending on your download and OS, unzip the file and change the to the directory. This is just a standard 2.3.5 demo data enabled install, very vanilla.
+
 4) Bring up Containers
+
+       docker-compose up -d
 
 5) View Website
