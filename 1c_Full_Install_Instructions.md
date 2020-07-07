@@ -40,6 +40,10 @@ The database was dumped to `.docker/mysql/docker-entrypoint-initdb.d/m2ce-demo.s
 
 This is inserted when the database comes up, and is much quicker than a full install from scratch. The database itself is not changed.
 
+The dump was generated using n98-magerun2:
+
+        docker-compose run deploy var/n98-magerun2 db:dump .docker/mysql/docker-entrypoint-initdb.d/m2ce-demo.sql
+
 With this change the app/etc/env.php was left in place as well, for the crypt key.
 
 ##### Added n98-magerun2 to var/
