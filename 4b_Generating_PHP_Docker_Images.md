@@ -47,3 +47,8 @@ Results should looks like:
        Starting magento-ce_db_1            ... done
        disable_functions => exec => exec
 
+7) Revert those changes, if you don't things will be broken
+
+       docker-compose pull
+       
+This command will overwrite the image that was built in step #5.
