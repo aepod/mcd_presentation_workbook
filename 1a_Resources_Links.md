@@ -4,7 +4,7 @@
  
 -  [Github Repository of magento-cloud-docker](https://github.com/magento/magento-cloud-docker)
  
--  [Magento Community Engineering Slack's #cloud-docker Channel](https://magentocommeng.slack.com/messages/CJ6F3F8NS)
+-  [Magento Community Engineering Slack's #cloud-docker Channel](https://join.slack.com/t/magentocommeng/shared_invite/zt-a7rc2sgi-rCjvfyKb8oIZrXX0UxEfHQ)
 
 -  [Mathew Beane's Presentation Workbook](https://github.com/aepod/mcd_presentation_workbook)
 
