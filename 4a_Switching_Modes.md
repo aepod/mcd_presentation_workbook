@@ -14,7 +14,7 @@
 
        docker-compose up -d
        
-4) Build / Deploy / Post-Deploy
+4) Build 
 
 Currently there is a bug in the build process, you have to manually remove the redis from the app/etc/env.php while running build. There are several copies of the env.php to allow for this in the example site. 
 
