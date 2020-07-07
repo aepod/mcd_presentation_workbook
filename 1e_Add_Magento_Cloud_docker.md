@@ -2,14 +2,13 @@
 
 1) Add the Composer Repositories
 
-       docker run -it -v $(pwd):/app/ -v ~/.composer/:/root/.composer/ magento/magento-cloud-docker-php:7.3-cli-1.1 bash -c 'composer config repositories.mcd vcs git@github.com:magento/magento-cloud-docker.git'
+        docker run -it -v $(pwd):/app/ -v ~/.composer/:/root/.composer/ magento/magento-cloud-docker-php:7.3-cli-1.1 bash -c 'composer config repositories.mcd vcs git@github.com:magento/magento-cloud-docker.git'
 
-       docker run -it -v $(pwd):/app/ -v ~/.composer/:/root/.composer/ magento/magento-cloud-docker-php:7.3-cli-1.1 bash -c 'composer config repositories.et vcs git@github.com:magento/ece-tools.git'
-
+        docker run -it -v $(pwd):/app/ -v ~/.composer/:/root/.composer/ magento/magento-cloud-docker-php:7.3-cli-1.1 bash -c 'composer config repositories.et vcs git@github.com:magento/ece-tools.git'
 
 2) composer require the cloud docker and ece tools packages
 
-       docker run -it -v $(pwd):/app/ -v ~/.composer/:/root/.composer/ magento/magento-cloud-docker-php:7.3-cli-1.1 bash -c 'composer require "magento/magento-cloud-docker:1.1.x-dev as 1.0.0" "magento/ece-tools:dev-develop"'
+        docker run -it -v $(pwd):/app/ -v ~/.composer/:/root/.composer/ magento/magento-cloud-docker-php:7.3-cli-1.1 bash -c 'composer require "magento/magento-cloud-docker:1.1" "magento/ece-tools"'
 
 
 3) Add the required files from the Magento Cloud package
