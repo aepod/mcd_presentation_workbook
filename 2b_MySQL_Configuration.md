@@ -1,4 +1,4 @@
-# Lesson 2 - Configuring MySQL
+# Lab 2 - Configuring MySQL
 
 ### Add configuration file in  .docker/mysql/mariadb.conf.d/
 

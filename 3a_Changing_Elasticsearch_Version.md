@@ -1,4 +1,4 @@
-# Lesson 2 - Changing Elasticsearch Version
+# Lab 3 - Changing Elasticsearch Version
 
 ### Changing Version in Docker Compose
 

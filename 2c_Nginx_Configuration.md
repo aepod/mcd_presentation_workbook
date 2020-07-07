@@ -1,4 +1,4 @@
-# Lesson 2 - Configuring Nginx
+# Lab 2 - Configuring Nginx
 
 ### Create configurations
 1) Create .docker/nginx/etc directory

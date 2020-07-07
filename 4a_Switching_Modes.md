@@ -1,4 +1,4 @@
-# Lesson 4 - Switching Modes
+# Lab 4 - Switching Modes
 
 ### Production Mode
 

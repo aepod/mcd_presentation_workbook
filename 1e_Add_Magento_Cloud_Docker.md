@@ -1,4 +1,4 @@
-# Lesson 1 - Add Magento Cloud Docker to "Any" Project
+# Lab 1 - Add Magento Cloud Docker to "Any" Project
 
 1) Add the Composer Repositories
 

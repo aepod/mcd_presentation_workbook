@@ -1,4 +1,4 @@
-# Lesson 4 - Generating PHP Docker Images
+# Lab 4 - Generating PHP Docker Images
 
 1) Create an ini file, disabling exec function
 

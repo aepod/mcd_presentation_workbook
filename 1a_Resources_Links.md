@@ -1,4 +1,4 @@
-# Lesson 1 - Resources
+# Lab 1 - Resources
 
 -  [Magento DevDocs' Documentation for Docker Development](https://devdocs.magento.com/cloud/docker/docker-development.html)
  

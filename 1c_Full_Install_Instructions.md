@@ -1,4 +1,4 @@
-# Lesson 1 - Full Setup Instructions
+# Lab 1 - Full Setup Instructions
 
 1)  Create the project 
 

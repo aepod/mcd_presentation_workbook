@@ -1,4 +1,4 @@
-# Lesson 2 - Configuring PHP
+# Lab 2 - Configuring PHP
 
 ### Edit the php.ini
 

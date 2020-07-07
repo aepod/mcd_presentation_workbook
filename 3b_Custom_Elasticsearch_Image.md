@@ -1,4 +1,4 @@
-# Lesson 2 - Custom Elasticsearch Docker Image
+# Lab 3 - Custom Elasticsearch Docker Image
 
 1) Setup custom image 
 

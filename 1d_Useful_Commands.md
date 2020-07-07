@@ -1,4 +1,4 @@
-# Lesson 1 - Useful Commands
+# Lab 1 - Useful Commands
 
 ### Without docker-compose containers running
 

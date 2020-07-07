@@ -1,4 +1,4 @@
-# Lesson 1 - Setup and Configuration
+# Lab 1 - Setup and Configuration
 
 1)  Add `magento2.docker` hostname to your local hosts file.
 
