@@ -10,6 +10,6 @@
     
 3)  Extract. Depending on your download and OS, extract the compressed file and change to the directory. This is just a standard Magento v2.3.5 demo data enabled installation; very vanilla.
 
-4)  Bring up containers by running `docker-compose up -d`
+4)  Bring up containers by running `docker-compose up -d` . Don't forget to change into the directory first.
 
 5)  View website over at https://magento2.docker/
