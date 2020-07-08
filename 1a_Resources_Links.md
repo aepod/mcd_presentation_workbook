@@ -6,6 +6,6 @@
  
 -  [Magento Community Engineering Slack's #cloud-docker Channel](https://join.slack.com/t/magentocommeng/shared_invite/zt-a7rc2sgi-rCjvfyKb8oIZrXX0UxEfHQ)
 
--  [Mathew Beane's Presentation Workbook](https://github.com/aepod/mcd_presentation_workbook)
+-  [This Workbook](https://github.com/aepod/mcd_presentation_workbook)
 
 -  [Example Magento CE with Magento Cloud Docker](https://bit.ly/31EwEPe)
