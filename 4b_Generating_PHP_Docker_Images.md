@@ -8,7 +8,7 @@ In `vendor/magento/magento-cloud-docker/images/php/cli/etc/` create `php-disable
 
 2) Add ini file to Dockerfiles
 
-In `vendor/magento/magento-cloud-docker/images/php/cli/Dockerfile` add the following line around line 48.
+In `vendor/magento/magento-cloud-docker/images/php/cli/Dockerfile` add the following line around line 190.
 
       ADD etc/php-disable-functions.ini /usr/local/etc/php/conf.d/zz-disable-functions.ini
       
