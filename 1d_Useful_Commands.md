@@ -28,7 +28,10 @@
 
        docker-compose run deploy cloud-deploy
 
+5) Fix Permissions
 
-5) Get to Log Files
+       chown -R webuser. . ~/.composer/
+
+6) Get to Log Files
 
        docker-compose logs -f fpm  # any container name from docker-compose.yaml will do
