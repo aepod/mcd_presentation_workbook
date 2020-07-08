@@ -37,9 +37,10 @@ In .docker/nginx/etc/vhost.conf edit in the PHP Entry Point (near line 142)
 Add a docker-compose.override.yml file to the root directory of the project. 
     
     version: '2.1'
-    web:
-      volumes:
-        - ./.docker/nginx/etc/vhost.conf:/etc/nginx/conf.d/default.conf
+    services:
+      web:
+        volumes:
+          - ./.docker/nginx/etc/vhost.conf:/etc/nginx/conf.d/default.conf
 
 
 
