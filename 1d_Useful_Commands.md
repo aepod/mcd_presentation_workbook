@@ -30,7 +30,7 @@
 
 5) Fix Permissions
 
-       chown -R webuser. . ~/.composer/
+       sudo chown -R webuser. . ~/.composer/
 
 6) Get to Log Files
 
