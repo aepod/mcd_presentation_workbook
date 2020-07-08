@@ -1,5 +1,7 @@
 # Lab 1 - Full Setup Instructions
 
+This is not part of the lab, it is meant to give full reference on how the tgz file was created. 
+
 1)  Create the project 
 
         docker run -it -v $(pwd):/app/ -v ~/.composer/:/root/.composer/ magento/magento-cloud-docker-php:7.3-cli-1.1 bash -c 'composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition magento-ce'
@@ -31,6 +33,7 @@
 6)  Deploy and automatically install
 
         docker-compose run deploy cloud-deploy
+        
 
 ## Modification
 
