@@ -24,5 +24,10 @@ Add a docker-compose.override.yml file to the root directory of the project.
 Apply the configuration
 
       docker-compose up -d
-      
- 
+     
+     
+##### View the elasticsearch config in a browser
+
+View the config at the following URL
+
+       http://magento2.docker:9200/
