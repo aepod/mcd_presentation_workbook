@@ -10,7 +10,7 @@ This assumes working WSL2 or Linux docker, with php and composer installed.
 
 2)  Add the Magento Cloud Docker Repository and ECE Tools
 
-        composer require "magento/magento-cloud-docker" "magento/ece-tools"'
+        composer require "magento/magento-cloud-docker" "magento/ece-tools"
 
 3)  Copy files from https://github.com/magento/magento-cloud
 
